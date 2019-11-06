@@ -2,9 +2,10 @@ import React from 'react';
 
 function Header() {
     return (
-        <div className="Header">
+        <div className="Header-container">
             <div className="Header-logo"></div>
-            <div className="Header-menu">
+            <div className="Header-spacer"></div>
+            <div className="Header-nav-container">
                 <ul className="Header-nav">
                     <li><a>Home</a></li>
                     <li><a>Service</a></li>
@@ -15,4 +16,4 @@ function Header() {
     );
 }
 
-export default App;
+export default Header;

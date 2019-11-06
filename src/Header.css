@@ -1,0 +1,29 @@
+.Header-container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    background-color: red;
+    min-height:70px;
+}
+.Header-logo{
+   align-self:flex-start;
+   width:20%;
+   min-height:70px;
+   background-color:aqua;
+}
+.Header-spacer{
+    align-self: stretch;
+    width:60%;
+    height: 70px;
+    background-color:greenyellow;
+}
+.Header-nav-container{
+    align-self:flex-end;
+    width:20%;
+}   
+.Header-nav{
+    list-style:none;
+}
+.Header-nav > li {
+    width:6%;
+}
