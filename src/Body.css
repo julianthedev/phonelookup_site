@@ -1,11 +1,30 @@
-.Body-hero{
+.Body-hero {
     display: flex;
-    background-image: url()
-    padding: 0;
-    margin: 0;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.9) 100%), url('./img/Body-hero-img.jpg');
+    min-height: 15em;
+    height: 80vh;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /*align-items: center;*/
+    /*justify-content: center;*/
 }
 .Body-hero-txt {
-    display: flex;
-    background-color: red;
     padding: 0;
-    margin: 0;
+    margin-top:15em;
+    margin-left: 50px;
+    text-align: left;
+    width: 50vw;
+}
+.Body-hero-txt h1{
+    font-size:45pt;
+}
+.Body-hero-txt p {
+    font-size: 23pt;
+}
+.Body-form{
+
+}
+

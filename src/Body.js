@@ -6,8 +6,13 @@ function Body() {
             <div className="Body-hero-txt">
                 <h1>Let's find out who's calling you. </h1>
                 <p>We provide one of the fastest reverse phone lookup services on the web.</p>
-                </div>
+                <form className="Body-form">
+                    <input type='text' name='Enter phone number.'/>
+                    <input type='submit' value='Search'/>
+                </form>    
             </div>
+            
+        </div>
     );
 }
 
