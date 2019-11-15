@@ -2,14 +2,18 @@ import React from 'react';
 import './App.css';
 import Header from'./Header.js'
 import './Header.css'
-import Body from './Body.js'
-import './Body.css'
+import Hero from './Hero.js'
+import './Hero.css'
+import Body1 from './Body1.js'
+import './Body1.css'
+
 
 function App() {
   return (
     <div className="App">
           <Header />
-          <Body />
+          <Hero />
+          <Body1 />
     </div>
   );
 }

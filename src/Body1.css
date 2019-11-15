@@ -1,0 +1,32 @@
+.Body1-container {
+    width: 100%; 
+    padding: 0;
+    margin: 0; 
+    background-color: red;
+    height: 40vh;
+}
+.Body1-form-container {
+    width: 25vw;
+    background: grey;
+    opacity: 0.5;
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    align-content: center;
+}
+.Body1-form {
+    text-align: center;
+
+}
+input[type=text] {
+    font-size: 15px;
+    padding: 8px;
+    border: 2px solid #ccc;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    height: 100%;
+}
+
+input[type=text]:focus {
+    border-color: red;
+}
