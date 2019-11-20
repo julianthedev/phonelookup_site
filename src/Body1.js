@@ -6,6 +6,7 @@ function Body1() {
             <div className="Body1-form-container">
                 <form className="Body1-form">
                     <input type="text" placeholder="Enter phone number.."></input>
+                    <button>Search </button>
                 </form>
             </div>
         </div>
