@@ -6,43 +6,15 @@
     height: 40vh;
     display:flex;
 }
-.Body1-form-container {
+.Body1-info-container {
     flex: 0 0 auto;
-    width: 40vw;
-    //background: grey;
-    //opacity: 0.5;
+    width: 90vw;
+    background: grey;
+    /*opacity: 0.5;*/
     display: flex;
-    height: 20vh;
+    height: 30vh;
     margin:auto;
-    margin-top: -11vh;
+    margin-top: -5vh;
 }
-.Body1-form {
-    text-align: center;
-    margin:auto;
-    width:100%;
-}
-input[type=text] {
-    font-size: 15px;
-    padding: 8px;
-    border: 2px solid #ccc;
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
-    height: 50px;
-    width: 100%;
-    box-shadow: 0px 23px 35px -4px rgba(0,0,0,0.47);
-}
-input[type=text]:focus {
-    border-color: red;
-}
-.Body1-form button {
-    color: white;
-    font-size: 15px;
-    text-align: center;
-    background-color: red;
-    padding: 8px 30px 8px 30px;
-    border-radius: 6px;
-    border: 0 none;
-    cursor: pointer;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-}
+
+
